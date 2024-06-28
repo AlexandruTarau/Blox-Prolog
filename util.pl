@@ -2,7 +2,7 @@
 :- ensure_loaded('files.pl').
 
 editall :- forall(member(File, [
-                             blox, util, testing, files, levels, checker, points1, points2
+                             blox, util, testing, files, levels
                          ]), edit(File)).
 
 
